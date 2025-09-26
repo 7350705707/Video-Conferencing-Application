@@ -1,4 +1,4 @@
-# Zoom Clone - Video Conferencing Application
+# Video Conferencing Application
 
 A full-stack real-time video conferencing application built with React, Node.js, Socket.IO, and WebRTC. Features include video calls, screen sharing, real-time chat, user authentication, and meeting history tracking.
 
