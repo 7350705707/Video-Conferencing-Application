@@ -15,7 +15,7 @@ import Badge from "@mui/material/Badge";
 import ChatIcon from "@mui/icons-material/Chat";
 import { useNavigate } from "react-router-dom";
 
-const server_url = "http://localhost:8000";
+const server_url = import.meta.env.VITE_SERVER_URL || "http://localhost:8000";
 
 var connections = {};
 
