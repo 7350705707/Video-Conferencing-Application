@@ -11,7 +11,7 @@ const LandingPage = () => {
           <h2>My Video Call</h2>
         </div>
         <div className='navList'>
-            <p onClick={() => navigate(`/${Math.random().toString(36).substring(2, 15)}`)}>Join as Guest</p>
+            <p onClick={() => navigate(`/meet/${Math.random().toString(36).substring(2, 15)}`)}>Join as Guest</p>
             <p onClick={() => navigate("/auth")}>Register</p>
             <div role='button'>
               <p className='login' onClick={() => navigate("/auth")}>Login</p>

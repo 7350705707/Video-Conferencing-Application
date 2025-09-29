@@ -16,7 +16,7 @@ const HomeComponent = () => {
 
     let handleJoinVideoCall = async() => {
         await addHistoryOfUser(meetingCode);
-        navigate(`/${meetingCode}`);
+        navigate(`/meet/${meetingCode}`);
     }
 
 

@@ -20,7 +20,7 @@ function App() {
         <Route path='/home' element={<HomeComponent />} />
         <Route path='/history' element={<History />} />
         <Route path='/auth' element={<Authentication />} />
-        <Route path="/:url" element={<VideoMeet />} />
+        <Route path="/meet/:url" element={<VideoMeet />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
       </AuthProvider>
